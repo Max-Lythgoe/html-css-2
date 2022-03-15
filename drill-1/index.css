@@ -1,0 +1,24 @@
+header {
+    height: 10vh;
+    background-color: rgb(85, 78, 78);
+}
+
+main {
+    height: 80vh;
+    background-color: white;
+    margin-left: 12vh;
+    margin-right: 12vh;
+    border-bottom: 10vh solid black;
+}
+
+footer {
+    /* height: 10vh;
+    background-color: black;
+    margin-left: 20vh;
+    margin-right: 20vh; */
+}
+
+body {
+    background-color: rgb(216, 216, 216)
+}
+

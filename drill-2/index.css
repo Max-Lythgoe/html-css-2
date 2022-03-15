@@ -1,0 +1,75 @@
+header {
+    height: 20vh;
+    border: 5px solid black;
+    margin: 2vh;
+}
+
+main {
+    height: 25vh;
+    border: 5px dotted black;
+    margin: 2vh;
+}
+
+section {
+    height: 43vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 3vw;
+    box-shadow: 2px 2px 5px 2px rgb(173, 173, 173);
+}
+
+.div-purple {
+    height: 14vh;
+    width: 5vw;
+    position: relative;
+    top: 60px;
+    left: 10px;
+    background-color: hsl(273, 84%, 46%)
+}
+
+.div-green {
+    height: 18vh;
+    width: 40vw;
+    position: absolute;
+    top: 3.3vh;
+    left: 13vw;
+    background-color: green
+}
+
+.blue-circle {
+    height: 18vh;
+    width: 18vw;
+    background-color: rgb(120, 183, 255);
+    border-radius: 50%;
+    position: absolute;
+    top:3.5vh;
+    right: 25vw;
+}
+
+.shadow-box {
+    background-color: rgb(255, 237, 186);
+    height: 16vh;
+    width: 80vw;
+    position: relative;
+    top: 15%;
+    left: 8%;
+    box-shadow: 10px 10px 5px rgb(36, 36, 36) 
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+h1 {
+    position: relative;
+    color: purple;
+    font-size: 3vh;
+    font-weight: 550;
+    letter-spacing: 10px;
+}
+

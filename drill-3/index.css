@@ -1,0 +1,85 @@
+header {
+    background-color: rgb(189, 189, 189);
+    height: 10vh;
+}
+
+.blue-square {
+    height: 6vh;
+    width: 6vh;
+    background-color: rgb(23, 143, 255);
+    position: relative;
+    top: 2vh;
+    left: 2vw;
+}
+
+.white {
+    display: inline-block;
+    height: 35vh;
+    border: solid 3px black;
+}
+
+main {
+    height: 30vh;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 3vh;
+}
+
+.blue-section {
+    height: 20vh;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(51, 146, 255);
+}
+
+.green-section {
+    height: 20vh;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(10, 233, 177);
+    z-index: 1;
+}
+
+.green-section2 {
+    height: 20vh;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(166, 255, 163);
+}
+
+.yellow-section {
+    height: 20vh;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(228, 255, 108);
+}
+
+.question {
+    height: 5vh;
+    width: 5vw;
+    background-color: black;
+    border-radius: 50%;
+    position: sticky;
+    bottom: 5px;
+    left: 5px;
+    z-index: 2;
+}
+
+#sticky-div {
+    position: sticky;
+    bottom: 5vh;
+    right: 5vw;
+    color: white;
+    background color: black;
+    border-radius: 50%;
+    height: 5vh;
+    width: 5vw;
+}
