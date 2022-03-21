@@ -1,13 +1,15 @@
 header {
     background-color: rgb(189, 189, 189);
     height: 10vh;
+    position: sticky;
+
 }
 
 .blue-square {
     height: 6vh;
     width: 6vh;
     background-color: rgb(23, 143, 255);
-    position: relative;
+    position: sticky;
     top: 2vh;
     left: 2vw;
 }
@@ -74,12 +76,14 @@ h1 {
 }
 
 #sticky-div {
-    position: sticky;
+    position: flex;
     bottom: 5vh;
-    right: 5vw;
+    right: 0;
     color: white;
-    background color: black;
+    background-color: black;
     border-radius: 50%;
     height: 5vh;
     width: 5vw;
+    float: right;
+    margin: 10px;
 }
